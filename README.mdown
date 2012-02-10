@@ -1,0 +1,25 @@
+# Le Petit Poucet
+
+[Le Petit Poucet](https://en.wikipedia.org/wiki/Hop-o'-My-Thumb) is a tale by [Charles Perrault](https://en.wikipedia.org/wiki/Charles_Perrault). Parents have to abandon their children in the Forest, but "Le Petit Poucet" will leave stones on its path to find its way back.
+
+
+## What does it do?
+
+In our emails, there is a trail of IP addresses identified by the `Received` email header. This program just take the raw content of an email, extract the IP addresses if any in the Received fields and convert each 4 numbers in an IP adress as a RGB color + opacity, then it creates a badge of this trail like stones in the forest.
+It saves the trail as a PNG image in the same directory you started the script.
+
+## Example
+
+A trail of 5 ip addresses
+
+![Example of trails](karl.eml.png)
+
+## Dependencies
+
+The script is using the [PIL module](http://www.pythonware.com/library/pil/handbook/index.htm).
+
+## Author - License
+
+Created by Karl Dubost on 2012-02-09.
+Copyright © 2012 Grange. All rights reserved.
+Licensed under the MIT license: http://www.opensource.org/licenses/MIT
