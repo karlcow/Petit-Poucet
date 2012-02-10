@@ -12,7 +12,7 @@ It saves the trail as a PNG image in the same directory you started the script.
 
 A trail of 5 ip addresses
 
-![Example of trails](karl.eml.png)
+![Example of trails](https://github.com/karlcow/Petit-Poucet/raw/master/karl.eml.png)
 
 ## Dependencies
 
